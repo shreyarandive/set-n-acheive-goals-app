@@ -13,6 +13,7 @@
 		3510C52C230F087F00C1064B /* set_goals_n_get__em_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3510C52A230F087F00C1064B /* set_goals_n_get__em_app.xcdatamodeld */; };
 		3510C52E230F088000C1064B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3510C52D230F088000C1064B /* Assets.xcassets */; };
 		3510C531230F088000C1064B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3510C52F230F088000C1064B /* LaunchScreen.storyboard */; };
+		35EEB500231367300024B8FB /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EEB4FF231367300024B8FB /* GoalCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		3510C52D230F088000C1064B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3510C530230F088000C1064B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3510C532230F088000C1064B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35EEB4FF231367300024B8FB /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		35FE538E2310C9EE001296D7 /* set-goals-n-get-'em-app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "set-goals-n-get-'em-app-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 				3510C52F230F088000C1064B /* LaunchScreen.storyboard */,
 				3510C532230F088000C1064B /* Info.plist */,
 				3510C52A230F087F00C1064B /* set_goals_n_get__em_app.xcdatamodeld */,
+				35FE538E2310C9EE001296D7 /* set-goals-n-get-'em-app-Bridging-Header.h */,
 			);
 			path = "set-goals-n-get-'em-app";
 			sourceTree = "<group>";
@@ -81,6 +85,7 @@
 		3510C539230F08E300C1064B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				35EEB4FF231367300024B8FB /* GoalCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 				TargetAttributes = {
 					3510C51F230F087F00C1064B = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -170,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35EEB500231367300024B8FB /* GoalCell.swift in Sources */,
 				3510C52C230F087F00C1064B /* set_goals_n_get__em_app.xcdatamodeld in Sources */,
 				3510C526230F087F00C1064B /* GoalsVC.swift in Sources */,
 				3510C524230F087F00C1064B /* AppDelegate.swift in Sources */,
@@ -318,6 +325,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LPBH5JPMKU;
 				INFOPLIST_FILE = "set-goals-n-get-'em-app/Info.plist";
@@ -327,6 +335,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shreyarandive.set-goals-n-get--em-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "set-goals-n-get-'em-app/set-goals-n-get-'em-app-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -336,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LPBH5JPMKU;
 				INFOPLIST_FILE = "set-goals-n-get-'em-app/Info.plist";
@@ -345,6 +356,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shreyarandive.set-goals-n-get--em-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "set-goals-n-get-'em-app/set-goals-n-get-'em-app-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
