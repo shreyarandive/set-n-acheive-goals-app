@@ -14,6 +14,7 @@
 		3510C52E230F088000C1064B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3510C52D230F088000C1064B /* Assets.xcassets */; };
 		3510C531230F088000C1064B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3510C52F230F088000C1064B /* LaunchScreen.storyboard */; };
 		35EEB500231367300024B8FB /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EEB4FF231367300024B8FB /* GoalCell.swift */; };
+		35EEB5022313794C0024B8FB /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EEB5012313794C0024B8FB /* GoalType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3510C530230F088000C1064B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3510C532230F088000C1064B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35EEB4FF231367300024B8FB /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		35EEB5012313794C0024B8FB /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		35FE538E2310C9EE001296D7 /* set-goals-n-get-'em-app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "set-goals-n-get-'em-app-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 		3510C53A230F090000C1064B /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				35EEB5012313794C0024B8FB /* GoalType.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35EEB500231367300024B8FB /* GoalCell.swift in Sources */,
+				35EEB5022313794C0024B8FB /* GoalType.swift in Sources */,
 				3510C52C230F087F00C1064B /* set_goals_n_get__em_app.xcdatamodeld in Sources */,
 				3510C526230F087F00C1064B /* GoalsVC.swift in Sources */,
 				3510C524230F087F00C1064B /* AppDelegate.swift in Sources */,
